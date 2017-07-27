@@ -1,0 +1,58 @@
+{
+  "project_info": {
+    "project_number": "738220001106",
+    "firebase_url": "https://crimeloggerandroid.firebaseio.com",
+    "project_id": "crimeloggerandroid",
+    "storage_bucket": "crimeloggerandroid.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:738220001106:android:7b9ae8e2522237d3",
+        "android_client_info": {
+          "package_name": "yonifre.com.crimeloggerandroid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "738220001106-7b3a7tv6gueosv6p5hvdjl51pj39j5g8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "yonifre.com.crimeloggerandroid",
+            "certificate_hash": "5a498fb16c47d8f107ca0d0892ea1fc4d45aca1c"
+          }
+        },
+        {
+          "client_id": "738220001106-ff6qdat7efeto13o0rhebn11opa1mghm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAeSP4VtXbAhRtCoRh1yFB8ZZ15soOhhnk"
+        },
+        {
+          "current_key": "AIzaSyBW81Gg7DcNmhMPhevDsw_AsrHFaCBUimA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "738220001106-ff6qdat7efeto13o0rhebn11opa1mghm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

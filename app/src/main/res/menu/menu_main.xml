@@ -1,0 +1,22 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="yonifre.com.crimeloggerandroid.MainActivity">
+    <item
+        android:id="@+id/action_login"
+        android:orderInCategory="108"
+        android:title="@string/action_login"
+        tools:onClick="@string/action_login"
+        android:onClick="login"/>
+    <item
+        android:id="@+id/action_logout"
+        android:onClick="logOut"
+        android:orderInCategory="109"
+        android:title="@string/action_logout"
+        tools:onClick="@string/action_logout" />
+    <item
+        android:id="@+id/action_settings"
+        android:onClick="showMap"
+        android:orderInCategory="105"
+        android:title="@string/action_settings" />
+</menu>

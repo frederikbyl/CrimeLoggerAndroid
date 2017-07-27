@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CrimeLoggerAndroid</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_login">Login</string>
+    <string name="action_logout">Logout</string>
+    <string name="facebook_app_id">490846457974428</string>
+    <string name="fb_login_protocol_scheme">fb490846457974428</string>
+    <string name="title_activity_maps">Map</string>
+</resources>
