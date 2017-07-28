@@ -16,7 +16,7 @@
         tools:onClick="@string/action_logout" />
     <item
         android:id="@+id/action_settings"
-        android:onClick="showMap"
+
         android:orderInCategory="105"
         android:title="@string/action_settings" />
 </menu>
