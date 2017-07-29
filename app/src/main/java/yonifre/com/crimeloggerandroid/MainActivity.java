@@ -38,7 +38,12 @@ import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.GetTokenResult;
 
+import java.net.URL;
 import java.util.Arrays;
+
+import javax.net.ssl.HttpsURLConnection;
+
+import yonifre.com.crimeloggerandroid.communication.GetCrimesCommunicator;
 
 public class MainActivity extends AppCompatActivity implements OnMapReadyCallback, GoogleApiClient.ConnectionCallbacks,
         GoogleApiClient.OnConnectionFailedListener {
@@ -116,6 +121,10 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
                                 GetTokenResult result = task.getResult();
 
                                 Log.d("MainActivity", "Token: " + result.getToken());
+
+                                GetCrimesCommunicator communicator = new GetCrimesCommunicator();
+                                communicator.execute(result.getToken());
+
 
                             } else {
                                 // Task failed with an exception
@@ -254,7 +263,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
 
             // Successfully signed in
             if (resultCode == ResultCodes.OK) {
-
 
 
                 return;
@@ -402,5 +410,11 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
             mMap.moveCamera(CameraUpdateFactory.newLatLngZoom(mDefaultLocation, DEFAULT_ZOOM));
             mMap.getUiSettings().setMyLocationButtonEnabled(false);
         }
+    }
+
+
+    private void getCrimeData() {
+
+
     }
 }
